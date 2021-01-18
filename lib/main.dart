@@ -15,13 +15,20 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.greenAccent,
       ),
-      body: Center(
-        child: Text("Hello, this is Nero!!!",
-            style: TextStyle(
-                fontSize: 30.0,
-                fontFamily: "IndieFlower"
-            )
-        ),
+      body:  Container(
+         child: Column(
+           children: [
+             Text("Hello, this is Nero!!!",
+                 style: TextStyle(
+                     fontSize: 30.0,
+                     fontFamily: "IndieFlower"
+                 )
+             ),
+             Image(
+               image: NetworkImage("https://avatars1.githubusercontent.com/u/50128636?s=460&u=c60f8d51c08e9a6585a7bbc2f250a6a570343a2f&v=4"),
+             )
+           ],
+         ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
