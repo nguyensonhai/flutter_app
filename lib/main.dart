@@ -24,10 +24,10 @@ class Home extends StatelessWidget {
                      fontFamily: "IndieFlower"
                  )
              ),
-             Image(
-               image: NetworkImage("https://avatars1.githubusercontent.com/u/50128636?s=460&u=c60f8d51c08e9a6585a7bbc2f250a6a570343a2f&v=4"),
-             )
+             Image.asset("images/nero.png")
            ],
+           // mainAxisAlignment: MainAxisAlignment.center,
+           // crossAxisAlignment: CrossAxisAlignment.center,
          ),
       ),
       floatingActionButton: FloatingActionButton(
